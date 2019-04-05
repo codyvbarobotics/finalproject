@@ -1,4 +1,4 @@
-from gpiozero import motor
+from gpiozero import Motor
 from time import sleep
 
 motor = Motor (forward=24, backward=25)
