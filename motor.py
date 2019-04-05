@@ -1,10 +1,10 @@
-from gpiozero import Motor
+from gpiozero import Robot
 from time import sleep
 
-motor = Motor (forward=24, backward=25)
+robot = Robot(left=(4, 17), right=(24, 25))
 
-while True:
-  motor.forward()
-  sleep(5)
-  motor.backward()
-  sleep(5)
+for i in range(4)
+  robot.forward()
+  sleep(10)
+  robot.backward()
+  sleep(1)
